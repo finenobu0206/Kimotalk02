@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074A52E2E153D184C4272460 /* Pods_Kimotalk02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B4681D05756A226DB20E67 /* Pods_Kimotalk02.framework */; };
 		8C3B1714236F17F400B2BED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B1713236F17F400B2BED8 /* AppDelegate.swift */; };
 		8C3B1716236F17F400B2BED8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B1715236F17F400B2BED8 /* FirstViewController.swift */; };
 		8C3B1718236F17F400B2BED8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B1717236F17F400B2BED8 /* SecondViewController.swift */; };
 		8C3B171B236F17F400B2BED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B1719236F17F400B2BED8 /* Main.storyboard */; };
 		8C3B171D236F17F700B2BED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B171C236F17F700B2BED8 /* Assets.xcassets */; };
 		8C3B1720236F17F700B2BED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B171E236F17F700B2BED8 /* LaunchScreen.storyboard */; };
+		8C3B1728236F186D00B2BED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C3B1727236F186D00B2BED8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CDEEC136B387ECF5E340D93 /* Pods-Kimotalk02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimotalk02.debug.xcconfig"; path = "Target Support Files/Pods-Kimotalk02/Pods-Kimotalk02.debug.xcconfig"; sourceTree = "<group>"; };
+		61522AE5E7C8A303A03F352F /* Pods-Kimotalk02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimotalk02.release.xcconfig"; path = "Target Support Files/Pods-Kimotalk02/Pods-Kimotalk02.release.xcconfig"; sourceTree = "<group>"; };
 		8C3B1710236F17F400B2BED8 /* Kimotalk02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kimotalk02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3B1713236F17F400B2BED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C3B1715236F17F400B2BED8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		8C3B171C236F17F700B2BED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3B171F236F17F700B2BED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C3B1721236F17F700B2BED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3B1727236F186D00B2BED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3B4681D05756A226DB20E67 /* Pods_Kimotalk02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimotalk02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A52E2E153D184C4272460 /* Pods_Kimotalk02.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041F16BEB19D26A5FE2B4B71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3B4681D05756A226DB20E67 /* Pods_Kimotalk02.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8C3B1707236F17F400B2BED8 = {
 			isa = PBXGroup;
 			children = (
 				8C3B1712236F17F400B2BED8 /* Kimotalk02 */,
 				8C3B1711236F17F400B2BED8 /* Products */,
+				C02811C46AC512C2784AF7CD /* Pods */,
+				041F16BEB19D26A5FE2B4B71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,19 @@
 				8C3B171C236F17F700B2BED8 /* Assets.xcassets */,
 				8C3B171E236F17F700B2BED8 /* LaunchScreen.storyboard */,
 				8C3B1721236F17F700B2BED8 /* Info.plist */,
+				8C3B1727236F186D00B2BED8 /* GoogleService-Info.plist */,
 			);
 			path = Kimotalk02;
+			sourceTree = "<group>";
+		};
+		C02811C46AC512C2784AF7CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CDEEC136B387ECF5E340D93 /* Pods-Kimotalk02.debug.xcconfig */,
+				61522AE5E7C8A303A03F352F /* Pods-Kimotalk02.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C3B1724236F17F700B2BED8 /* Build configuration list for PBXNativeTarget "Kimotalk02" */;
 			buildPhases = (
+				60C8D5FE99A8493B434ECDDE /* [CP] Check Pods Manifest.lock */,
 				8C3B170C236F17F400B2BED8 /* Sources */,
 				8C3B170D236F17F400B2BED8 /* Frameworks */,
 				8C3B170E236F17F400B2BED8 /* Resources */,
+				E4567E74C26BC7608D45E493 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3B1720236F17F700B2BED8 /* LaunchScreen.storyboard in Resources */,
+				8C3B1728236F186D00B2BED8 /* GoogleService-Info.plist in Resources */,
 				8C3B171D236F17F700B2BED8 /* Assets.xcassets in Resources */,
 				8C3B171B236F17F400B2BED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60C8D5FE99A8493B434ECDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimotalk02-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4567E74C26BC7608D45E493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimotalk02/Pods-Kimotalk02-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimotalk02/Pods-Kimotalk02-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kimotalk02/Pods-Kimotalk02-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C3B170C236F17F400B2BED8 /* Sources */ = {
@@ -284,6 +357,7 @@
 		};
 		8C3B1725236F17F700B2BED8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDEEC136B387ECF5E340D93 /* Pods-Kimotalk02.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +376,7 @@
 		};
 		8C3B1726236F17F700B2BED8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61522AE5E7C8A303A03F352F /* Pods-Kimotalk02.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
